@@ -1,0 +1,109 @@
+/* Stylen van de blokken en centrereren */
+/* /* @import url('https://fonts.cdnfonts.com/css/lansbury-fg'); */
+ */
+*{
+  box-sizing: border-box;
+  font-family: Hiragino Kaku;
+  color: rgb(255, 255, 255);
+  
+}
+
+@font-face {
+  font-family: Hiragino Kaku;
+  src: url(fonts/Hiragino\ Kaku\ Gothic\ Std\ W8.otf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+
+header {
+  background-image: url('../images/liubov-ilchuk-_6rR_iP06p4-unsplash.jpg');
+  background-size: cover;
+  height: 100vh;  
+  width: 100%;
+}
+
+nav {
+  text-align: right;
+  font-size: 1.6em;
+}
+
+nav ul{
+  margin: 0;
+  padding-top: 1.6em;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding-right: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+  color: rgb(174, 174, 174);
+}
+
+h1{
+  font-size: 9.1em;
+  text-align: center;
+  margin-top: 2.2em;
+  color: white;
+  font-family: Hiragino Kaku;
+}
+
+p{
+  font-size: 3.5em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lansbury FG';
+  font-weight: bold;
+  background: hsl(48, 82%, 62%);
+}
+
+main {
+  margin: 0 auto;
+  width: 50vw;
+}
+
+article {
+  background: hsl(48, 70%, 57%);
+  padding: 2em;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+strong {
+  font-family: monospace;
+} */
+
+
+
+/* 👇 Schrijf hieronder je eigen CSS
+
+/* 1. Gebruik de Type selector */
+
+/* 2. Gebruik de Class selector */
+
+/* 3. Gebruik de ID selector */
+
+/* 4. Lijstje in Lijstje */
+
+/* 5. De eerste */
