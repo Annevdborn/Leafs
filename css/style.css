@@ -4,16 +4,15 @@
 
 /* Home pagina -------------------------------------------------------------------------------------------*/
 
-*{
+* {
   box-sizing: border-box;
   font-family: Hiragino Kaku;
   color: rgb(20, 20, 20);
-  
 }
 
 @font-face {
   font-family:hiragiono kaku;
-  src: url(fonts/Hiragino\ Kaku\ Gothic\ Std\ W8.otf);
+  src: url(css/fonts/hiraginokakugothicstdw8.otf);
 }
 
 html,
@@ -35,35 +34,36 @@ nav {
   font-size: 1.6em;
 }
 
-nav ul{
+nav ul {
   margin: 0;
   padding-top: 1.6em;
 }
 
-nav li{
+nav li {
   display: inline;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding-right: 1.6em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-nav a:hover{
-  color: rgb(124, 203, 123);
+nav a:hover {
+  color: rgb(0, 65, 13);
 }
 
-h1{
+h1 {
   font-size: 9.1em;
   text-align: center;
   margin-top: 2.2em;
+  letter-spacing: 0.1;
   color: rgb(255, 255, 255);
-  font-family: Hiragino Kaku;
+  font-family: Hiragino Kaku Gothic Std;
 }
 
-p{
+p {
   font-size: 3.5em;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -71,33 +71,23 @@ p{
   color: rgb(20, 20, 20);
 }
 
+q {
+  font-size: 1.4em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -6em;
+}
+
 /* Over mij -------------------------------------------------------------------------------------------*/
 
 
 .overmij{
   background-image: url('../images/kae-anderson-06pdCDOl4nY-unsplash.jpg');
-
 }
-/* .coverovermij-image {
-  background-image: url('../images/kae-anderson-06pdCDOl4nY-unsplash.jpg');
-  background-size: cover;
-  height: 100vh;  
-  width: 100%;
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -112,106 +102,34 @@ p{
 
 
 .planten {
-  background-image: url('../images/calathea-orbifolia-by-white-wall.jpg');
+  background-image: url('../images/kevin-angelso-OIFMEW_z36Y-unsplash.jpg');
 }
 
-main figure{
+main figure {
   margin: 5em 0em 0em 0em;
   display: flex;
-  background-color: rgb(191,191, 191);
+  background-color: rgb(221, 221, 221);
 }
 
-h2{
+h2 {
   font-weight: normal;
   color: black;
   font-size: 2.5em;
+  margin-top: 4em;
 }
 
-main figure img{
+main figure img {
   width: 60vw;
 }
 
-main figure p{
+main figure p {
 text-align: left;
 color: black;
 }
 
-main figure figcaption{
+main figure figcaption {
   margin: 2em;
 }
-
-
-/* main article {
-  margin-top: 5em;
-  padding-right: 10em;
-  background-color: rgb(229, 229, 229);
-}
-
-article h2 {
-  font-weight: normal;
-  text-align: right;
-  color: black;
-  font-size: 2em;
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-main article img{
-  margin-top: 5em;
-  width: 60vw;
-}
-
-main article p {
-  text-align: right;
-  color: black;
-  
-} */
-
- 
-/* .text-links{
-  display: flex;
-  flex-flow: row-reverse;
-} */
-
-
-
-/* main article {
-  margin-top: 5em;
-  display: flex;
-  background-color: rgb(191, 191, 191)
-}
-
-main article img{
-  margin-top: 5em;
-  width: 60vw;
-}
-
-main article h2 {
-  text-align: left;
-  color: black;
-  margin: 6em;
-}
-
-main article p{
-  text-align: right;
-  color: black;
-}
-
-main article p{
-  margin: 6em;
-} */
-
-/* ------------------------------------------------------ */
-
-
-
-/* .text-links{
-  display: flex;
-  flex-flow: row-reverse;
-} */
-
-
-
-
 
 
 
@@ -227,34 +145,13 @@ main article p{
 /* Tips en Tricks -------------------------------------------------------------------------------------------*/
 
 .tipsentricks {
-  background-image: url('../images/small-cacti-with-white-wall-background.jpg');
+  background-image: url('../images/augustine-wong-T0BYurbDK_M-unsplash.jpg');
 }
 
 
 
 
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: 'Lansbury FG';
-  font-weight: bold;
-  background: hsl(48, 82%, 62%);
-}
 
-main {
-  margin: 0 auto;
-  width: 50vw;
-}
-
-article {
-  background: hsl(48, 70%, 57%);
-  padding: 2em;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-}
-
-strong {
-  font-family: monospace;
-} */
 
 
 
