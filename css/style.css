@@ -1,15 +1,18 @@
-/* Stylen van de blokken en centrereren */
-/* /* @import url('https://fonts.cdnfonts.com/css/lansbury-fg'); */
- */
+/* Stylen van de blokken en centrereren 
+@import url('https://fonts.cdnfonts.com/css/lansbury-fg'); */
+
+
+/* Home pagina -------------------------------------------------------------------------------------------*/
+
 *{
   box-sizing: border-box;
   font-family: Hiragino Kaku;
-  color: rgb(255, 255, 255);
+  color: rgb(20, 20, 20);
   
 }
 
 @font-face {
-  font-family: Hiragino Kaku;
+  font-family:hiragiono kaku;
   src: url(fonts/Hiragino\ Kaku\ Gothic\ Std\ W8.otf);
 }
 
@@ -17,7 +20,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: blueviolet;
+  background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -43,20 +46,20 @@ nav li{
 
 nav a{
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   padding-right: 1.6em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a:hover{
-  color: rgb(174, 174, 174);
+  color: rgb(124, 203, 123);
 }
 
 h1{
   font-size: 9.1em;
   text-align: center;
   margin-top: 2.2em;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Hiragino Kaku;
 }
 
@@ -65,7 +68,166 @@ p{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  color: rgb(255, 255, 255);
+  color: rgb(20, 20, 20);
+}
+
+/* Over mij -------------------------------------------------------------------------------------------*/
+
+
+.overmij{
+  background-image: url('../images/kae-anderson-06pdCDOl4nY-unsplash.jpg');
+
+}
+/* .coverovermij-image {
+  background-image: url('../images/kae-anderson-06pdCDOl4nY-unsplash.jpg');
+  background-size: cover;
+  height: 100vh;  
+  width: 100%;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Planten -------------------------------------------------------------------------------------------*/
+
+
+.planten {
+  background-image: url('../images/calathea-orbifolia-by-white-wall.jpg');
+}
+
+main figure{
+  margin: 5em 0em 0em 0em;
+  display: flex;
+  background-color: rgb(191,191, 191);
+}
+
+h2{
+  font-weight: normal;
+  color: black;
+  font-size: 2.5em;
+}
+
+main figure img{
+  width: 60vw;
+}
+
+main figure p{
+text-align: left;
+color: black;
+}
+
+main figure figcaption{
+  margin: 2em;
+}
+
+
+/* main article {
+  margin-top: 5em;
+  padding-right: 10em;
+  background-color: rgb(229, 229, 229);
+}
+
+article h2 {
+  font-weight: normal;
+  text-align: right;
+  color: black;
+  font-size: 2em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+main article img{
+  margin-top: 5em;
+  width: 60vw;
+}
+
+main article p {
+  text-align: right;
+  color: black;
+  
+} */
+
+ 
+/* .text-links{
+  display: flex;
+  flex-flow: row-reverse;
+} */
+
+
+
+/* main article {
+  margin-top: 5em;
+  display: flex;
+  background-color: rgb(191, 191, 191)
+}
+
+main article img{
+  margin-top: 5em;
+  width: 60vw;
+}
+
+main article h2 {
+  text-align: left;
+  color: black;
+  margin: 6em;
+}
+
+main article p{
+  text-align: right;
+  color: black;
+}
+
+main article p{
+  margin: 6em;
+} */
+
+/* ------------------------------------------------------ */
+
+
+
+/* .text-links{
+  display: flex;
+  flex-flow: row-reverse;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tips en Tricks -------------------------------------------------------------------------------------------*/
+
+.tipsentricks {
+  background-image: url('../images/small-cacti-with-white-wall-background.jpg');
 }
 
 
