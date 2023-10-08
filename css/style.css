@@ -20,6 +20,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(255, 255, 255);
+  
+  
 }
 
 header {
@@ -82,19 +84,33 @@ q {
   margin-top: -6em;
 }
 
+button a {
+  background-color: white;
+  color: darkolivegreen;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5em;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+button a:hover {
+background-color: black;
+transform: scale(1.1);
+}
+
 /* Over mij -------------------------------------------------------------------------------------------*/
 
 
 .overmij{
   background-image: url('../images/kae-anderson-06pdCDOl4nY-unsplash.jpg');
 }
-
-
-
-
-
-
-
 
 
 
