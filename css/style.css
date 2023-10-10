@@ -84,26 +84,33 @@ q {
   margin-top: -6em;
 }
 
+
+button {
+display: block;
+margin: 0 auto;
+text-align: center;
+background-color: white;
+padding: 1em 2em;
+border: none;
+border-radius: 5em;
+margin-top: 2em;
+}
+
+button:hover {
+  background-color: black;
+  transform: scale(1.1);
+  }
+
 button a {
-  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.1em;
   color: darkolivegreen;
-  padding: 1em 2em;
-  border: none;
-  border-radius: 5em;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
   text-decoration: none;
-  position: absolute;
-  display: flex;
-  justify-content: center;
 }
 
-button a:hover {
-background-color: black;
-transform: scale(1.1);
-}
+
 
 /* Over mij -------------------------------------------------------------------------------------------*/
 
@@ -112,7 +119,14 @@ transform: scale(1.1);
   background-image: url('../images/kae-anderson-06pdCDOl4nY-unsplash.jpg');
 }
 
-
+figure h1 {
+  font-family: "kyrial-sans-condensed-pro", sans-serif;
+  margin-top: 4em;
+  font-size: 2.5em;
+  text-align: left;
+  color: black;
+  
+}
 
 /* Planten -------------------------------------------------------------------------------------------*/
 
@@ -127,13 +141,6 @@ main figure {
   background-color: rgb(221, 221, 221);
 }
 
-h2 {
-  font-weight: normal;
-  color: black;
-  font-size: 2.5em;
-  margin-top: 4em;
-}
-
 main figure img {
   width: 60vw;
 }
@@ -144,41 +151,86 @@ color: black;
 }
 
 main figure figcaption {
-  margin: 2em;
+  margin: 11em;
 }
-
-
-
-
-
-
-
-
-
 
 
 
 /* Tips en Tricks -------------------------------------------------------------------------------------------*/
 
 .tipsentricks {
-  background-image: url('../images/augustine-wong-T0BYurbDK_M-unsplash.jpg');
+  background-image: url('../images/scott-webb-hDyO6rr3kqk-unsplash.jpg');
+}
+
+.tipsentricks p {
+  color: rgb(152, 182, 154);
+  font-size: 4em;
+  font-family: "Hiragino Kaku Gothic Std";
+  margin-top: 4em;
+  justify-content: center;
+  animation: quote 3s linear infinite;
+}
+
+@keyframes quote {
+  0%   {color: rgb(121, 191, 134);}
+  25%  {color: rgb(78, 181, 97);}
+  50%  {color: rgb(29, 114, 44);}
+  100% {color: rgb(16, 41, 20);}
+}
+
+div {
+  display: block;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 4em;
+  background-image: url('../images/test2.jpg');
+  width: 100%;
+  padding: 1em 0em;
+  margin-top: 4em;
+}
+
+.box div {
+  height: 22.8125em;
+  width: 20.9375em;
+  padding: 2em 2.1875em;
+  background: white;
+  border-right: 2em;
+  margin: 0.9375em;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 70%;
+}
+
+.box div:hover {
+  transform: scale(1em);
+  opacity: 100%;
+}
+
+.box p {
+  color: black;
+  font-size: 1em;
+  line-height: 1.6875em;
+  margin-bottom: 1.5625;
+}
+
+.box h1{
+  font-family: "kyrial-sans-condensed-pro", sans-serif;
+  font-size: 1.5em;
+  color: black;
 }
 
 
 
+/* FOOTER -------------------------------------------------------------------------------------------*/
+
+footer p {
+  text-align: center;
+}
 
 
-
-
-
-/* 👇 Schrijf hieronder je eigen CSS
-
-/* 1. Gebruik de Type selector */
-
-/* 2. Gebruik de Class selector */
-
-/* 3. Gebruik de ID selector */
-
-/* 4. Lijstje in Lijstje */
-
-/* 5. De eerste */

@@ -1,0 +1,113 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/annevandenborn/Library/CloudStorage/OneDrive-HvA/CMD/Jaar - 1/Blok - 1/Internetstandaarden/Website Leafs/Opdrachtomschrijving - Website maken/Digitalen-schets map/Document fonts/AdobeFnt23.lst
+FileLength:2781
+FileModTime:718618990
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AvenirLTStd-Light
+FamilyName:Avenir LT Std
+StyleName:35 Light
+MenuName:Avenir LT Std 35 Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Avenir LT Std 35 Light
+WritingScript:Roman
+OutlineFileName:/Users/annevandenborn/Library/CloudStorage/OneDrive-HvA/CMD/Jaar - 1/Blok - 1/Internetstandaarden/Website Leafs/Opdrachtomschrijving - Website maken/Digitalen-schets map/Document fonts/AvenirLTStd-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:27240
+FileModTime:374831280
+NameArray:0,Mac,4,Avenir LT Std 35 Light
+NameArray:0,Win,1,Avenir LT Std 35 Light
+NameArray:0,Win,16,Avenir LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-Bold
+FamilyName:Helvetica Neue
+StyleName:Bold
+MenuName:Helvetica Neue
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Helvetica Neue Bold
+WritingScript:Roman
+OutlineFileName:/Users/annevandenborn/Library/CloudStorage/OneDrive-HvA/CMD/Jaar - 1/Blok - 1/Internetstandaarden/Website Leafs/Opdrachtomschrijving - Website maken/Digitalen-schets map/Document fonts/HelveticaNeue.dfont
+DataFormat:sfntResource
+ResourceID:14151
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:6992599
+FileModTime:467332330
+NameArray:0,Mac,4,Helvetica Neue Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/annevandenborn/Library/CloudStorage/OneDrive-HvA/CMD/Jaar - 1/Blok - 1/Internetstandaarden/Website Leafs/Opdrachtomschrijving - Website maken/Digitalen-schets map/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:514220864
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pumpkin-Party
+FamilyName:Pumpkin Party
+StyleName:Regular
+MenuName:Pumpkin Party
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Pumpkin Party
+WritingScript:Roman
+OutlineFileName:/Users/annevandenborn/Library/CloudStorage/OneDrive-HvA/CMD/Jaar - 1/Blok - 1/Internetstandaarden/Website Leafs/Opdrachtomschrijving - Website maken/Digitalen-schets map/Document fonts/Pumpkin Party.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:31204
+FileModTime:652554908
+NameArray:0,Mac,4,Pumpkin Party
+NameArray:0,Win,1,Pumpkin Party
+%EndFont
+
